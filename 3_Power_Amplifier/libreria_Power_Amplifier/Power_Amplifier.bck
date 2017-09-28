@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 32nF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP IN_FUENTE_CONM
+D Connector 01x02
+$ENDCMP
+#
+$CMP IRF740N
+D 400V Vds, 10A Id, HEXFET N-Channel MOSFET, TO-220AB
+K HEXFET N-Channel MOSFET
+F C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/3_Power_Amplifier/3_Datasheets_PDF/Mosfet_IRF740.pdf
+$ENDCMP
+#
+$CMP OUT_CON_CAP
+D Connector 01x02
+$ENDCMP
+#
+#End Doc Library
