@@ -22,4 +22,9 @@ $CMP OUT_SIN_CAP
 D Connector 01x02
 $ENDCMP
 #
+$CMP TRANSFO-SO12
+D transformador de 175 W
+F C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/3_Power_Amplifier/3_Datasheets_PDF/N2880-AL.pdf
+$ENDCMP
+#
 #End Doc Library

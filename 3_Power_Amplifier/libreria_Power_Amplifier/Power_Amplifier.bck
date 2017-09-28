@@ -18,4 +18,8 @@ $CMP OUT_CON_CAP
 D Connector 01x02
 $ENDCMP
 #
+$CMP OUT_SIN_CAP
+D Connector 01x02
+$ENDCMP
+#
 #End Doc Library
