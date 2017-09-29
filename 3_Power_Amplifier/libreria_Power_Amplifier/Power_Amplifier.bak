@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF 32nF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "32nF" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H V C CNN
+F2 "Capacitors_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" 38 -150 50 H I C CNN
 F3 "" 25 100 50 H V C CNN
 F4 "para 300kHz" 125 200 60 H I C CNN "frecuencias"
 $FPLIST
@@ -51,7 +51,7 @@ ENDDEF
 DEF IRF740N Q 0 0 Y Y 1 F N
 F0 "Q" 250 75 50 H I L CNN
 F1 "IRF740N" 250 0 50 H V L CNN
-F2 "TO-220" 250 -75 50 H I L CIN
+F2 "TO_SOT_Packages_THT:TO-220_Vertical" 250 -75 50 H I L CIN
 F3 "" 250 75 50 H I L CNN
 F4 "2400" 350 175 60 H I C CNN "Didacticas_Electronica"
 $FPLIST
@@ -92,7 +92,7 @@ ENDDEF
 DEF OUT_CON_CAP P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "OUT_CON_CAP" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X02
@@ -114,7 +114,7 @@ ENDDEF
 DEF OUT_SIN_CAP P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "OUT_SIN_CAP" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X02
@@ -136,8 +136,8 @@ ENDDEF
 DEF TRANSFO-SO12 T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
 F1 "TRANSFO-SO12" -50 -350 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "libreria_Power_Amplifier_huellas:foot_print_trafo" -100 150 50 H I C CNN
+F3 "" 0 250 50 H V C CNN
 DRAW
 T 0 0 -250 60 0 0 0 1~:~13  Normal 0 C C
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150

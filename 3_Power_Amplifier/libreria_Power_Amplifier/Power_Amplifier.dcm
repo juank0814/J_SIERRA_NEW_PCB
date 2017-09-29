@@ -4,6 +4,10 @@ $CMP 32nF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP CONN_01X02
+D Connector 01x02
+$ENDCMP
+#
 $CMP IN_FUENTE_CONM
 D Connector 01x02
 $ENDCMP
