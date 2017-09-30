@@ -1,15 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100
+D Resistor
+$ENDCMP
+#
+$CMP 10K
+D Resistor
+$ENDCMP
+#
 $CMP 32nF
 D Unpolarized capacitor
 $ENDCMP
 #
-$CMP CONN_01X02
+$CMP C_OUT_32nF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP INPUT_SIGNAL
 D Connector 01x02
 $ENDCMP
 #
 $CMP IN_FUENTE_CONM
-D Connector 01x02
+D Connector 01x04
+$ENDCMP
+#
+$CMP IN_SWITCHEO
+D Connector 01x04
 $ENDCMP
 #
 $CMP IRF740N
@@ -24,6 +40,10 @@ $ENDCMP
 #
 $CMP OUT_SIN_CAP
 D Connector 01x02
+$ENDCMP
+#
+$CMP OUT_SWITCHEO
+D Connector 01x04
 $ENDCMP
 #
 $CMP TRANSFO-SO12
