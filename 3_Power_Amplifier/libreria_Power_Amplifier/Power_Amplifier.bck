@@ -12,26 +12,28 @@ $CMP 32nF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP CON_HF_HV_OUTPUT_P2
+D Connector 01x02
+$ENDCMP
+#
 $CMP C_OUT_32nF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP DC_INPUT
+D Connector 01x02
+$ENDCMP
+#
+$CMP HF_HV_OUTPUT_P2
+D Connector 01x02
+$ENDCMP
+#
+$CMP HF_HV_OUTPUT_P5
+D Connector 01x02
+$ENDCMP
+#
 $CMP INPUT_SIGNAL
 D Connector 01x02
-$ENDCMP
-#
-$CMP IN_FUENTE_CONM
-D Connector 01x04
-$ENDCMP
-#
-$CMP IN_SWITCHEO
-D Connector 01x02
-$ENDCMP
-#
-$CMP IRF740N
-D 400V Vds, 10A Id, HEXFET N-Channel MOSFET, TO-220AB
-K HEXFET N-Channel MOSFET
-F C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/3_Power_Amplifier/3_Datasheets_PDF/Mosfet_IRF740.pdf
 $ENDCMP
 #
 $CMP IRF740NPBF
@@ -44,15 +46,11 @@ $CMP ISLETA
 D Connector 01x01
 $ENDCMP
 #
-$CMP OUT_CON_CAP
-D Connector 01x02
-$ENDCMP
-#
-$CMP OUT_SIN_CAP
-D Connector 01x02
-$ENDCMP
-#
 $CMP OUT_SWITCHEO
+D Connector 01x02
+$ENDCMP
+#
+$CMP SWITCHED_POWER
 D Connector 01x02
 $ENDCMP
 #
