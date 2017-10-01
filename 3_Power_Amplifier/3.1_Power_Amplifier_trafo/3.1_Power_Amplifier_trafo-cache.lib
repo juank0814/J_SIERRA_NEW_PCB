@@ -42,52 +42,64 @@ ENDDEF
 # IN_FUENTE_CONM
 #
 DEF IN_FUENTE_CONM P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
+F0 "P" 0 150 50 H V C CNN
 F1 "IN_FUENTE_CONM" 100 0 50 V V C CNN
-F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_4pin_straight" -100 150 50 H I C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
 $ENDFPLIST
 DRAW
-S -50 -145 10 -155 0 1 0 N
 S -50 -45 10 -55 0 1 0 N
 S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
 # IN_SWITCHEO
 #
 DEF IN_SWITCHEO P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
+F0 "P" 0 150 50 H V C CNN
 F1 "IN_SWITCHEO" 100 0 50 V V C CNN
-F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_4pin_straight" -100 150 50 H I C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
 $ENDFPLIST
 DRAW
-S -50 -145 10 -155 0 1 0 N
 S -50 -45 10 -55 0 1 0 N
 S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ISLETA
+#
+DEF ISLETA P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "ISLETA" 100 0 50 V V C CNN
+F2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" -100 0 50 H I C CNN
+F3 "" 0 100 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X01
+ Pin_Header_Angled_1X01
+ Socket_Strip_Straight_1X01
+ Socket_Strip_Angled_1X01
+$ENDFPLIST
+DRAW
+S -50 5 10 -5 0 1 0 N
+S -50 50 50 -50 0 1 0 N
+X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -96,7 +108,7 @@ ENDDEF
 DEF OUT_CON_CAP P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "OUT_CON_CAP" 100 0 50 V V C CNN
-F2 "libreria_Power_Amplifier_huellas:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X02
@@ -118,7 +130,7 @@ ENDDEF
 DEF OUT_SIN_CAP P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "OUT_SIN_CAP" 100 0 50 V V C CNN
-F2 "libreria_Power_Amplifier_huellas:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X02
@@ -132,6 +144,28 @@ S -50 55 10 45 0 1 0 N
 S -50 100 50 -100 0 1 0 N
 X P2 1 -200 -50 150 R 50 50 1 1 P
 X P1 2 -200 50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TIERRA_POT
+#
+DEF TIERRA_POT P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "TIERRA_POT" 100 0 50 V V C CNN
+F2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" -100 50 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

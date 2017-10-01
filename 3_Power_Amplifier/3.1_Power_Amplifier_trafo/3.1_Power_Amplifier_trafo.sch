@@ -103,17 +103,6 @@ F 4 "para 300kHz" H 4675 3350 60  0001 C CNN "frecuencias"
 	1    4550 3150
 	1    0    0    -1  
 $EndComp
-$Comp
-L IN_FUENTE_CONM P4
-U 1 1 59CFA514
-P 1200 4000
-F 0 "P4" H 1200 4250 50  0000 C CNN
-F 1 "IN_FUENTE_CONM" V 1300 4000 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_4pin_straight" H 1100 4150 50  0001 C CNN
-F 3 "" H 1200 4000 50  0000 C CNN
-	1    1200 4000
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	750  1100 11000 1100
 Wire Notes Line
@@ -121,20 +110,9 @@ Wire Notes Line
 Wire Notes Line
 	11000 4500 750  4500
 Wire Notes Line
-	750  4500 750  1100
+	750  1100 750  5600
 Text Notes 1050 1300 0    79   ~ 16
 CONECTORES
-$Comp
-L IN_SWITCHEO P1
-U 1 1 59CFAC64
-P 1200 1950
-F 0 "P1" H 1200 2200 50  0000 C CNN
-F 1 "IN_SWITCHEO" V 1300 1950 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_4pin_straight" H 1100 2100 50  0001 C CNN
-F 3 "" H 1200 1950 50  0000 C CNN
-	1    1200 1950
-	-1   0    0    1   
-$EndComp
 Text Notes 4100 1550 0    79   ~ 16
 ARREGLO DE CAPACITORES \nTANQUE LC
 Wire Wire Line
@@ -198,7 +176,7 @@ TRANSFORMADOR 1 : 13
 Wire Notes Line
 	6900 1100 6900 6100
 Wire Notes Line
-	3050 4500 3050 1100
+	3050 1100 3050 5600
 Text Label 7800 3150 0    79   ~ 16
 VDD
 Text Label 9950 3150 2    79   ~ 16
@@ -299,6 +277,102 @@ F 1 "OUT_SIN_CAP" V 1300 3200 50  0000 C CNN
 F 2 "libreria_Power_Amplifier_huellas:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 1100 3250 50  0001 C CNN
 F 3 "" H 1200 3200 50  0000 C CNN
 	1    1200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ISLETA P5
+U 1 1 59D07AFC
+P 1300 4850
+F 0 "P5" H 1300 4950 50  0000 C CNN
+F 1 "ISLETA" V 1400 4850 50  0000 C CNN
+F 2 "libreria_Power_Amplifier_huellas:Pad_Via_5.1mm_TOR" H 1200 4850 50  0001 C CNN
+F 3 "" H 1300 4950 50  0000 C CNN
+	1    1300 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L ISLETA P6
+U 1 1 59D07C9B
+P 1300 5250
+F 0 "P6" H 1300 5350 50  0000 C CNN
+F 1 "ISLETA" V 1400 5250 50  0000 C CNN
+F 2 "libreria_Power_Amplifier_huellas:Pad_Via_5.1mm_TOR" H 1200 5250 50  0001 C CNN
+F 3 "" H 1300 5350 50  0000 C CNN
+	1    1300 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L ISLETA P7
+U 1 1 59D07CDC
+P 2300 4850
+F 0 "P7" H 2300 4950 50  0000 C CNN
+F 1 "ISLETA" V 2400 4850 50  0000 C CNN
+F 2 "libreria_Power_Amplifier_huellas:Pad_Via_5.1mm_TOR" H 2200 4850 50  0001 C CNN
+F 3 "" H 2300 4950 50  0000 C CNN
+	1    2300 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L ISLETA P8
+U 1 1 59D07D6C
+P 2300 5250
+F 0 "P8" H 2300 5350 50  0000 C CNN
+F 1 "ISLETA" V 2400 5250 50  0000 C CNN
+F 2 "libreria_Power_Amplifier_huellas:Pad_Via_5.1mm_TOR" H 2200 5250 50  0001 C CNN
+F 3 "" H 2300 5350 50  0000 C CNN
+	1    2300 5250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2500 4850
+NoConn ~ 2500 5250
+NoConn ~ 1500 5250
+NoConn ~ 1500 4850
+Wire Notes Line
+	3050 5600 750  5600
+Text Notes 1600 4650 0    79   ~ 16
+ISLETAS
+$Comp
+L IN_SWITCHEO P1
+U 1 1 59D04926
+P 1200 1850
+F 0 "P1" H 1300 1850 50  0000 C CNN
+F 1 "IN_SWITCHEO" H 1200 1700 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 1100 1900 50  0001 C CNN
+F 3 "" H 1200 1850 50  0000 C CNN
+	1    1200 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L TIERRA_POT P4
+U 1 1 59D04A46
+P 1200 2050
+F 0 "P4" H 1300 2050 50  0000 C CNN
+F 1 "TIERRA_POT" H 1200 2200 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 1100 2100 50  0001 C CNN
+F 3 "" H 1200 2050 50  0000 C CNN
+	1    1200 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L IN_FUENTE_CONM P9
+U 1 1 59D05006
+P 1200 3900
+F 0 "P9" H 1300 3900 50  0000 C CNN
+F 1 "IN_FUENTE_CONM" H 1200 3750 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 1100 3950 50  0001 C CNN
+F 3 "" H 1200 3900 50  0000 C CNN
+	1    1200 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L TIERRA_POT P10
+U 1 1 59D050DC
+P 1200 4100
+F 0 "P10" H 1300 4100 50  0000 C CNN
+F 1 "TIERRA_POT" H 1200 4250 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 1100 4150 50  0001 C CNN
+F 3 "" H 1200 4100 50  0000 C CNN
+	1    1200 4100
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
