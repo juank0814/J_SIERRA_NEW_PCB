@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Jumper-RESCUE-PCB_OSCILLATOR
+#
+DEF ~Jumper-RESCUE-PCB_OSCILLATOR J 0 10 N N 1 F N
+F0 "J" 30 20 50 H V L CNN
+F1 "Jumper-RESCUE-PCB_OSCILLATOR" 30 -40 50 H I L CNN
+F2 "Pin_Headers:Pin_Header_Straight_1x02" -70 -80 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Resistor_*
+ R_*
+$ENDFPLIST
+DRAW
+A 0 0 54 1118 -1118 0 1 0 N -20 50 -20 -50
+C 0 -50 20 0 1 0 N
+C 0 50 20 0 1 0 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

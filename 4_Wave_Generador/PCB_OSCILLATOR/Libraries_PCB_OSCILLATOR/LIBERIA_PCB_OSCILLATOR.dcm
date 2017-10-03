@@ -1,0 +1,67 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5270
+D 1024-Position, 1% Resistor Tolerance Error, SPI Interface and 50-TP Memory Digital Rheostat
+K 10 ld MSOP
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD5270.pdf
+$ENDCMP
+#
+$CMP AD8421
+D Low Power Instrumentation Amplifier
+K 8 ld MSOP
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8651
+D 50 MHz, Precision, Low Distortion, Low Noise CMOS Op Amp
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8651.pdf
+$ENDCMP
+#
+$CMP AD9833
+D Generador de señales 
+K 10 ld MSOP
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD9833.pdf
+$ENDCMP
+#
+$CMP ADG819
+D CMOS 0.5 Ω SPDT Switch in SC70
+K 6 ld SC70
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG819.pdf
+$ENDCMP
+#
+$CMP ADG849
+D CMOS 0.5 Ω SPDT Switch in SC70
+K 6 ld SC70
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG849.pdf
+$ENDCMP
+#
+$CMP ADP3303
+D 200 mA Low Dropout Linear Regulator
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADP3303.pdf
+$ENDCMP
+#
+$CMP ADP3334
+D Adjustable Low Dropout Regulator
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADP3334.pdf
+$ENDCMP
+#
+$CMP ADR291
+D Precision Voltage References 2.5V
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADR291.pdf
+$ENDCMP
+#
+$CMP Jumper
+D Jumper Pitch 2.54
+$ENDCMP
+#
+$CMP KC5032A
+D Clock Oscillators Surface Mount Type
+K OSCILLATOR
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/KC5032A_CM_E(OSCILADOR).pdf
+$ENDCMP
+#
+$CMP Led_0805
+D Led
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,142 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 0.01uF
+#
+DEF 0.01uF C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "0.01uF" 10 -80 50 H V L CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" -90 -30 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "478-1383-2-ND" 110 170 60 H I C CNN "Digi-Key Part Number"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13  -60 -20  60 -20 N
+P 2 0 1 12  -60 20  60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0.1uF
+#
+DEF 0.1uF C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "0.1uF" 10 -80 50 H V L CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" -90 -30 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "478-1395-2-ND" 110 170 60 H I C CNN "Digi-Key Part Number"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13  -60 -20  60 -20 N
+P 2 0 1 12  -60 20  60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0.47uF
+#
+DEF 0.47uF C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "0.47uF" 10 -80 50 H V L CNN
+F2 "Capacitors_SMD:C_1206_HandSoldering" -90 -30 50 H I C CNN
+F3 "" 10 70 50 H V C CNN
+F4 "399-3695-1-ND" 110 170 60 H I C CNN "0.47µF ±10% Molded Tantalum Capacitors 25V 1206 (3216 Metric) 14 Ohm"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13  -60 -20  60 -20 N
+P 2 0 1 12  -60 20  60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10uF
+#
+DEF 10uF C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "10uF" 10 -80 50 H V L CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" -90 -30 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "490-5523-2-ND" 110 170 60 H I C CNN "25V"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13  -60 -20  60 -20 N
+P 2 0 1 12  -60 20  60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1uF
+#
+DEF 1uF C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "1uF" 10 -80 50 H V L CNN
+F2 "Capacitors_SMD:C_0805_HandSoldering" -90 -30 50 H I C CNN
+F3 "" 10 70 50 H V C CNN
+F4 "478-8126-2-ND" 110 170 60 H I C CNN "CAP TANT 1UF 16V 20% 0805"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13  -60 -20  60 -20 N
+P 2 0 1 12  -60 20  60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20pF
+#
+DEF 20pF C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "20pF" 10 -80 50 H V L CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" -90 -30 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "478-3735-2-ND" 110 170 60 H I C CNN "100V"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13  -60 -20  60 -20 N
+P 2 0 1 12  -60 20  60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

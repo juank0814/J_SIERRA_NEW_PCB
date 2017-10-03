@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.01uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 0.1uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 0.47uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 10uF
+D Polarized capacitor
+$ENDCMP
+#
+$CMP 1uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 20pF
+D Unpolarized capacitor
+$ENDCMP
+#
+#End Doc Library
