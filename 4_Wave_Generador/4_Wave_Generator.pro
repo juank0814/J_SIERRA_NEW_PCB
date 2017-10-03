@@ -1,4 +1,4 @@
-update=10/03/17 08:04:35
+update=10/03/17 08:15:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -121,11 +121,10 @@ LibName89=Worldsemi
 LibName90=Xicor
 LibName91=zetex
 LibName92=Zilog
-LibName93=C:/Users/USUARIO/Documents/GitHub/hello-world/proyectos/AD8232
-LibName94=C:/Users/USUARIO/Documents/GitHub/hello-world/proyectos/CON_3X1_RENOV
-LibName95=C:/Users/USUARIO/Documents/GitHub/hello-world/proyectos/proyectos-cache
-LibName96=C:/Users/USUARIO/Documents/GitHub/hello-world/proyectos/proyectos-rescue
-LibName97=C:/Users/USUARIO/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/Condensadores_Proyecto
-LibName98=C:/Users/USUARIO/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/LIBERIA_PCB_OSCILLATOR
-LibName99=C:/Users/USUARIO/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/Resistencias_Proyecto
-LibName100=PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/AD8232
+LibName93=C:/Users/USUARIO/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/Condensadores_Proyecto
+LibName94=C:/Users/USUARIO/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/LIBERIA_PCB_OSCILLATOR
+LibName95=C:/Users/USUARIO/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/Resistencias_Proyecto
+LibName96=PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/AD8232
+LibName97=C:/Users/juan carlos sierra/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/Condensadores_Proyecto
+LibName98=C:/Users/juan carlos sierra/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/LIBERIA_PCB_OSCILLATOR
+LibName99=C:/Users/juan carlos sierra/Documents/GitHub/PCBS_2_LUZBIN/2_Manager_Outputs/PCB_OSCILLATOR/Libraries_PCB_OSCILLATOR/Resistencias_Proyecto
