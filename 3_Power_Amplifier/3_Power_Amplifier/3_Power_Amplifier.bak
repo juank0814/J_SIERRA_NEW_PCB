@@ -92,7 +92,7 @@ Wire Wire Line
 	4000 2600 4000 2500
 Connection ~ 4000 2500
 Wire Wire Line
-	4000 2800 4000 2900
+	4000 2800 4000 2950
 Wire Wire Line
 	5900 2550 5900 2450
 Connection ~ 5900 2450
@@ -118,7 +118,7 @@ Text Label 7150 2400 0    60   ~ 0
 DDS
 Text Label 5900 2900 1    60   ~ 0
 GND
-Text Label 4000 2900 1    60   ~ 0
+Text Label 4000 2950 1    60   ~ 0
 GND
 Wire Wire Line
 	9400 2750 9400 3000
@@ -256,94 +256,6 @@ F 3 "" H 2100 5850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 100 R1
-U 1 1 59D1EE87
-P 3750 2500
-F 0 "R1" H 3780 2520 50  0000 L CNN
-F 1 "100" H 3780 2460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3680 2420 50  0001 C CNN
-F 3 "" H 3750 2500 50  0000 C CNN
-	1    3750 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L 100 R3
-U 1 1 59D1F6CB
-P 5650 2450
-F 0 "R3" H 5680 2470 50  0000 L CNN
-F 1 "100" H 5680 2410 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5580 2370 50  0001 C CNN
-F 3 "" H 5650 2450 50  0000 C CNN
-	1    5650 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L 100 R5
-U 1 1 59D1FA81
-P 7450 2400
-F 0 "R5" H 7480 2420 50  0000 L CNN
-F 1 "100" H 7480 2360 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7380 2320 50  0001 C CNN
-F 3 "" H 7450 2400 50  0000 C CNN
-	1    7450 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L 100 R7
-U 1 1 59D1FAF4
-P 9200 2400
-F 0 "R7" H 9230 2420 50  0000 L CNN
-F 1 "100" H 9230 2360 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 9130 2320 50  0001 C CNN
-F 3 "" H 9200 2400 50  0000 C CNN
-	1    9200 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L 10K R2
-U 1 1 59D1FFFE
-P 4000 2700
-F 0 "R2" H 4030 2720 50  0000 L CNN
-F 1 "10K" H 4030 2660 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3930 2620 50  0001 C CNN
-F 3 "" H 4000 2700 50  0000 C CNN
-	1    4000 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10K R4
-U 1 1 59D2033A
-P 5900 2650
-F 0 "R4" H 5930 2670 50  0000 L CNN
-F 1 "10K" H 5930 2610 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5830 2570 50  0001 C CNN
-F 3 "" H 5900 2650 50  0000 C CNN
-	1    5900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10K R6
-U 1 1 59D209D8
-P 7600 2650
-F 0 "R6" H 7630 2670 50  0000 L CNN
-F 1 "10K" H 7630 2610 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7530 2570 50  0001 C CNN
-F 3 "" H 7600 2650 50  0000 C CNN
-	1    7600 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10K R8
-U 1 1 59D20B52
-P 9400 2650
-F 0 "R8" H 9430 2670 50  0000 L CNN
-F 1 "10K" H 9430 2610 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 9330 2570 50  0001 C CNN
-F 3 "" H 9400 2650 50  0000 C CNN
-	1    9400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L SIGNAL_INPUT P1
 U 1 1 59D21F96
 P 900 2250
@@ -377,9 +289,9 @@ Wire Wire Line
 	1800 2200 2000 2200
 Wire Wire Line
 	1800 2300 2000 2300
-Text Label 2750 2200 2    60   ~ 0
-GND
 Text Label 2750 2300 2    60   ~ 0
+GND
+Text Label 2750 2200 2    60   ~ 0
 DDS
 $Comp
 L SIGNAL_INPUT P11
@@ -448,7 +360,7 @@ F 3 "" H 2150 4900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	10850 4200 10850 1150
+	10850 1150 10850 4200
 $Comp
 L SWITCHED_POWER_INV P2
 U 1 1 59D2CC7F
@@ -480,10 +392,10 @@ SWITCHED_POWER
 Text Label 2350 3950 2    59   ~ 0
 SWITCHED_POWER
 $Comp
-L SWITCHED_POWER_INV P?
+L SWITCHED_POWER_INV P12
 U 1 1 59D2D3FC
 P 1350 3900
-F 0 "P?" H 1450 3900 50  0000 C CNN
+F 0 "P12" H 1450 3900 50  0000 C CNN
 F 1 "SWITCHED_POWER_INV" H 1050 3650 50  0000 C CNN
 F 2 "libreria_Power_Amplifier_huellas:INV_Socket_MOLEX-2-pines" H 1250 3950 50  0001 C CNN
 F 3 "" H 1350 3900 50  0000 C CNN
@@ -491,9 +403,97 @@ F 3 "" H 1350 3900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	650  4200 10850 4200
+	10850 4200 650  4200
 Wire Notes Line
 	650  5200 3200 5200
 Wire Notes Line
 	3200 6400 650  6400
+$Comp
+L 100 R1
+U 1 1 59D2EF68
+P 3750 2500
+F 0 "R1" H 3780 2520 50  0000 L CNN
+F 1 "100" H 3780 2460 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 3680 2420 50  0001 C CNN
+F 3 "" H 3750 2500 50  0000 C CNN
+	1    3750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L 100 R3
+U 1 1 59D2F0DF
+P 5650 2450
+F 0 "R3" H 5680 2470 50  0000 L CNN
+F 1 "100" H 5680 2410 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 5580 2370 50  0001 C CNN
+F 3 "" H 5650 2450 50  0000 C CNN
+	1    5650 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L 100 R5
+U 1 1 59D2F33F
+P 7450 2400
+F 0 "R5" H 7480 2420 50  0000 L CNN
+F 1 "100" H 7480 2360 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 7380 2320 50  0001 C CNN
+F 3 "" H 7450 2400 50  0000 C CNN
+	1    7450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L 100 R7
+U 1 1 59D2F4DC
+P 9200 2400
+F 0 "R7" H 9230 2420 50  0000 L CNN
+F 1 "100" H 9230 2360 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 9130 2320 50  0001 C CNN
+F 3 "" H 9200 2400 50  0000 C CNN
+	1    9200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L 10K R2
+U 1 1 59D2FB7B
+P 4000 2700
+F 0 "R2" H 4030 2720 50  0000 L CNN
+F 1 "10K" H 4030 2660 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 3930 2620 50  0001 C CNN
+F 3 "" H 4000 2700 50  0000 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R4
+U 1 1 59D2FC1D
+P 5900 2650
+F 0 "R4" H 5930 2670 50  0000 L CNN
+F 1 "10K" H 5930 2610 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 5830 2570 50  0001 C CNN
+F 3 "" H 5900 2650 50  0000 C CNN
+	1    5900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R6
+U 1 1 59D2FFBD
+P 7600 2650
+F 0 "R6" H 7630 2670 50  0000 L CNN
+F 1 "10K" H 7630 2610 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 7530 2570 50  0001 C CNN
+F 3 "" H 7600 2650 50  0000 C CNN
+	1    7600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R8
+U 1 1 59D301F0
+P 9400 2650
+F 0 "R8" H 9430 2670 50  0000 L CNN
+F 1 "10K" H 9430 2610 50  0000 L CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 9330 2570 50  0001 C CNN
+F 3 "" H 9400 2650 50  0000 C CNN
+	1    9400 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

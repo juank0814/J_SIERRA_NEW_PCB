@@ -201,17 +201,6 @@ GND
 Text Label 1800 4800 2    59   ~ 0
 GND
 $Comp
-L TIERRAA P8
-U 1 1 59D06E38
-P 1050 4750
-F 0 "P8" H 1200 4750 50  0000 C CNN
-F 1 "TIERRAA" H 1050 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 950 4800 50  0001 C CNN
-F 3 "" H 1050 4750 50  0000 C CNN
-	1    1050 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L ISLETA P3
 U 1 1 59D08679
 P 1350 5750
@@ -253,17 +242,6 @@ F 1 "ISLETA" H 2100 5650 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 2000 5750 50  0001 C CNN
 F 3 "" H 2100 5850 50  0000 C CNN
 	1    2100 5750
-	-1   0    0    1   
-$EndComp
-$Comp
-L SIGNAL_INPUT P1
-U 1 1 59D21F96
-P 900 2250
-F 0 "P1" H 1000 2250 50  0000 C CNN
-F 1 "SIGNAL_INPUT" H 800 2050 50  0000 C CNN
-F 2 "libreria_Power_Amplifier_huellas:REDISEÑADO_INV_Pin_Header_Pitch2.54mm" H 800 2300 50  0001 C CNN
-F 3 "" H 900 2400 50  0000 C CNN
-	1    900  2250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -495,5 +473,27 @@ F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 9330 2570 50  
 F 3 "" H 9400 2650 50  0000 C CNN
 	1    9400 2650
 	1    0    0    -1  
+$EndComp
+$Comp
+L SIGNAL_INPUT_SMA P1
+U 1 1 59E3490C
+P 900 2250
+F 0 "P1" H 1000 2260 50  0000 C CNN
+F 1 "SIGNAL_INPUT_SMA" H 790 2040 50  0000 C CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_SMA_THT_Jack_Straight" H 800 2300 50  0001 C CNN
+F 3 "" H 900 2400 50  0000 C CNN
+	1    900  2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L TIERRA P8
+U 1 1 59E35104
+P 1050 4750
+F 0 "P8" H 1200 4750 50  0000 C CNN
+F 1 "TIERRA" H 1050 4550 50  0000 C CNN
+F 2 "libreria_Power_Amplifier_huellas:INV_Socket_MOLEX-2-pines" H 950 4800 50  0001 C CNN
+F 3 "" H 1050 4900 50  0000 C CNN
+	1    1050 4750
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
