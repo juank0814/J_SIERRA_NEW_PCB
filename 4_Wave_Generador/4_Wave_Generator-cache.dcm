@@ -7,8 +7,21 @@ F PCB_OSCILLATOR/Datasheets/AD8232.pdf
 $ENDCMP
 #
 $CMP AD8421
-D AMPLIFICADOR
-F PCB_OSCILLATOR/Datasheets/AD8421.pdf
+D Low Power Instrumentation Amplifier
+K 8 ld MSOP
+F C:/Users/juan carlos sierra/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8421_A
+D Low Power Instrumentation Amplifier
+K 8 ld MSOP
+F C:/Users/juan carlos sierra/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD9833_A
+D Generador de señales 
+K 10 ld MSOP
+F Datasheets/AD9833.pdf
 $ENDCMP
 #
 $CMP ADG819
@@ -26,8 +39,18 @@ D OSCILADOR
 F PCB_OSCILLATOR/Datasheets/KC5032A_CM_E(OSCILADOR).pdf
 $ENDCMP
 #
+$CMP LD1117S33TR_MIO
+D REGULADOR 5V
+F PCB_OSCILLATOR/Datasheets/LD1117S33TR.pdf
+$ENDCMP
+#
 $CMP PIC16F688
 F PCB_OSCILLATOR/Datasheets/PIC16F688.pdf
+$ENDCMP
+#
+$CMP XRCHA_16M
+D cristal 16MHz
+F PCB_OSCILLATOR/Datasheets/XRCHA_16MHz.pdf
 $ENDCMP
 #
 #End Doc Library
