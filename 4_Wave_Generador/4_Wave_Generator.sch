@@ -1293,8 +1293,6 @@ F 3 "" H 4470 6620 50  0001 C CNN
 $EndComp
 Text Label 3560 8320 3    60   ~ 0
 VDD
-Text Notes 2800 9460 0    60   ~ 0
-SI, SE PUEDE ENVIAR AL MICRO
 Text Label 10380 10110 0    47   ~ 0
 OUT_ANALOG
 $Comp
@@ -3094,4 +3092,47 @@ F 3 "" H 7590 9900 50  0000 C CNN
 	1    7590 9900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L CONN_02X03 CONEXION_SPI
+U 1 1 59D69BA8
+P 8540 7120
+F 0 "CONEXION_SPI" H 8510 7370 50  0000 C CNN
+F 1 "CONN_02X03" H 8540 6920 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 8540 5920 50  0001 C CNN
+F 3 "" H 8540 5920 50  0000 C CNN
+	1    8540 7120
+	1    0    0    -1  
+$EndComp
+Text Label 7680 7020 0    60   ~ 0
+SCLK_DDS_1
+Text Label 7680 7120 0    60   ~ 0
+SDATA_DDS_1
+Text Label 7680 7220 0    60   ~ 0
+FSYNK_DDS_1
+Wire Wire Line
+	7680 7020 8290 7020
+Wire Wire Line
+	7680 7120 8290 7120
+Wire Wire Line
+	7680 7220 8290 7220
+Wire Wire Line
+	8790 7020 9270 7020
+Wire Wire Line
+	8790 7120 9270 7120
+Wire Wire Line
+	8790 7220 9270 7220
+Text Label 9270 7120 2    60   ~ 0
+MOSI
+Text Label 9270 7020 2    60   ~ 0
+SCK
+Text Label 9270 7220 2    60   ~ 0
+PD2
+Wire Notes Line
+	7450 6770 9410 6770
+Wire Notes Line
+	9410 6770 9410 7550
+Wire Notes Line
+	9410 7550 7450 7550
+Wire Notes Line
+	7450 7550 7450 6770
 $EndSCHEMATC
