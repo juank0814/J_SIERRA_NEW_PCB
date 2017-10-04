@@ -387,94 +387,6 @@ Wire Notes Line
 Wire Notes Line
 	3200 6400 650  6400
 $Comp
-L 100 R1
-U 1 1 59D2EF68
-P 3750 2500
-F 0 "R1" H 3780 2520 50  0000 L CNN
-F 1 "100" H 3780 2460 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 3680 2420 50  0001 C CNN
-F 3 "" H 3750 2500 50  0000 C CNN
-	1    3750 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L 100 R3
-U 1 1 59D2F0DF
-P 5650 2450
-F 0 "R3" H 5680 2470 50  0000 L CNN
-F 1 "100" H 5680 2410 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 5580 2370 50  0001 C CNN
-F 3 "" H 5650 2450 50  0000 C CNN
-	1    5650 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L 100 R5
-U 1 1 59D2F33F
-P 7450 2400
-F 0 "R5" H 7480 2420 50  0000 L CNN
-F 1 "100" H 7480 2360 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 7380 2320 50  0001 C CNN
-F 3 "" H 7450 2400 50  0000 C CNN
-	1    7450 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L 100 R7
-U 1 1 59D2F4DC
-P 9200 2400
-F 0 "R7" H 9230 2420 50  0000 L CNN
-F 1 "100" H 9230 2360 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 9130 2320 50  0001 C CNN
-F 3 "" H 9200 2400 50  0000 C CNN
-	1    9200 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L 10K R2
-U 1 1 59D2FB7B
-P 4000 2700
-F 0 "R2" H 4030 2720 50  0000 L CNN
-F 1 "10K" H 4030 2660 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 3930 2620 50  0001 C CNN
-F 3 "" H 4000 2700 50  0000 C CNN
-	1    4000 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10K R4
-U 1 1 59D2FC1D
-P 5900 2650
-F 0 "R4" H 5930 2670 50  0000 L CNN
-F 1 "10K" H 5930 2610 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 5830 2570 50  0001 C CNN
-F 3 "" H 5900 2650 50  0000 C CNN
-	1    5900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10K R6
-U 1 1 59D2FFBD
-P 7600 2650
-F 0 "R6" H 7630 2670 50  0000 L CNN
-F 1 "10K" H 7630 2610 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 7530 2570 50  0001 C CNN
-F 3 "" H 7600 2650 50  0000 C CNN
-	1    7600 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10K R8
-U 1 1 59D301F0
-P 9400 2650
-F 0 "R8" H 9430 2670 50  0000 L CNN
-F 1 "10K" H 9430 2610 50  0000 L CNN
-F 2 "libreria_Power_Amplifier_huellas:INV_R_0805_HandSoldering" H 9330 2570 50  0001 C CNN
-F 3 "" H 9400 2650 50  0000 C CNN
-	1    9400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L SIGNAL_INPUT_SMA P1
 U 1 1 59E3490C
 P 900 2250
@@ -495,5 +407,93 @@ F 2 "libreria_Power_Amplifier_huellas:INV_Socket_MOLEX-2-pines" H 950 4800 50  0
 F 3 "" H 1050 4900 50  0000 C CNN
 	1    1050 4750
 	-1   0    0    1   
+$EndComp
+$Comp
+L 100 R1
+U 1 1 59DA5392
+P 3750 2500
+F 0 "R1" H 3780 2520 50  0000 L CNN
+F 1 "100" H 3780 2460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3680 2420 50  0001 C CNN
+F 3 "" H 3750 2500 50  0000 C CNN
+	1    3750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L 100 R7
+U 1 1 59DA55F1
+P 9200 2400
+F 0 "R7" H 9230 2420 50  0000 L CNN
+F 1 "100" H 9230 2360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9130 2320 50  0001 C CNN
+F 3 "" H 9200 2400 50  0000 C CNN
+	1    9200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L 100 R3
+U 1 1 59DA62D7
+P 5650 2450
+F 0 "R3" H 5680 2470 50  0000 L CNN
+F 1 "100" H 5680 2410 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5580 2370 50  0001 C CNN
+F 3 "" H 5650 2450 50  0000 C CNN
+	1    5650 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L 100 R5
+U 1 1 59DA63EB
+P 7450 2400
+F 0 "R5" H 7480 2420 50  0000 L CNN
+F 1 "100" H 7480 2360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7380 2320 50  0001 C CNN
+F 3 "" H 7450 2400 50  0000 C CNN
+	1    7450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L 10K R2
+U 1 1 59DA72F3
+P 4000 2700
+F 0 "R2" H 4030 2720 50  0000 L CNN
+F 1 "10K" H 4030 2660 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3930 2620 50  0001 C CNN
+F 3 "" H 4000 2700 50  0000 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R4
+U 1 1 59DA76ED
+P 5900 2650
+F 0 "R4" H 5930 2670 50  0000 L CNN
+F 1 "10K" H 5930 2610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5830 2570 50  0001 C CNN
+F 3 "" H 5900 2650 50  0000 C CNN
+	1    5900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R6
+U 1 1 59DA7B59
+P 7600 2650
+F 0 "R6" H 7630 2670 50  0000 L CNN
+F 1 "10K" H 7630 2610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7530 2570 50  0001 C CNN
+F 3 "" H 7600 2650 50  0000 C CNN
+	1    7600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R8
+U 1 1 59DA811D
+P 9400 2650
+F 0 "R8" H 9430 2670 50  0000 L CNN
+F 1 "10K" H 9430 2610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9330 2570 50  0001 C CNN
+F 3 "" H 9400 2650 50  0000 C CNN
+	1    9400 2650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
