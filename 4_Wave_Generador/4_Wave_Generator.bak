@@ -1372,7 +1372,7 @@ Text Label 7890 10870 1    60   ~ 0
 PC1
 Text Label 7990 10870 1    60   ~ 0
 PC2
-Text Label 7590 10870 1    60   ~ 0
+Text Label 7490 10870 1    60   ~ 0
 SELECTOR
 Text Notes 6010 1080 0    60   ~ 0
 MICROCONTROLLER \nATMEGA 328P
@@ -1409,7 +1409,7 @@ RC1_PIC
 Text Label 1380 6930 0    60   ~ 0
 ADC_1
 Text Label 6750 10870 1    60   ~ 0
-RC1_PIC
+RC3_PIC
 Text Notes 2220 5710 0    60   ~ 0
 PIC16F688
 $Comp
@@ -2789,7 +2789,7 @@ F 3 "" H 11730 8510 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 11110 8510 0    60   ~ 0
-RC3_PIC
+RC1_PIC
 Wire Wire Line
 	11480 8510 11110 8510
 Wire Wire Line
@@ -2966,7 +2966,7 @@ Wire Notes Line
 	12740 7920 12740 9500
 Text Label 9240 1700 2    60   ~ 0
 MODULATING_WAVE
-Text Label 9240 1890 2    60   ~ 0
+Text Label 9240 1790 2    60   ~ 0
 SELECTOR
 $Comp
 L CONN_01X03 P18
@@ -3111,10 +3111,6 @@ F 3 "" H 8390 9900 50  0000 C CNN
 	1    8390 9900
 	0    -1   -1   0   
 $EndComp
-Text Label 9240 1790 2    60   ~ 0
-PD7
-Text Label 7490 10870 1    60   ~ 0
-PD7
 Text Label 8940 3150 2    60   ~ 0
 PC3
 $Comp
@@ -3201,4 +3197,8 @@ Text Label 9220 1600 2    60   ~ 0
 PWM_ATMEGA
 Text Label 9230 1990 2    60   ~ 0
 PB1
+Text Label 7590 10870 1    60   ~ 0
+PB0
+Text Label 9240 1890 2    60   ~ 0
+PB0
 $EndSCHEMATC
