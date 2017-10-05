@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/4_Wave_Generador/4_Wave_Generator.sch")
-    (date "10/05/17 10:50:46")
+    (date "10/05/17 12:39:53")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1558,12 +1558,12 @@
       (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\PCBS_2_LUZBIN\\2_Manager_Outputs\\PCB_OSCILLATOR\\Libraries_PCB_OSCILLATOR\\LIBERIA_PCB_OSCILLATOR.lib"))
     (library (logical Condensadores_Proyecto)
       (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\PCBS_2_LUZBIN\\2_Manager_Outputs\\PCB_OSCILLATOR\\Libraries_PCB_OSCILLATOR\\Condensadores_Proyecto.lib"))
+    (library (logical 4_Wave_Generator-cache)
+      (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\J_SIERRA_NEW_PCB\\4_Wave_Generador\\4_Wave_Generator-cache.lib"))
     (library (logical Resistencias_Proyecto)
       (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\PCBS_2_LUZBIN\\2_Manager_Outputs\\PCB_OSCILLATOR\\Libraries_PCB_OSCILLATOR\\Resistencias_Proyecto.lib"))
     (library (logical Sensado_Control_DC_5-cache)
-      (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\Sensor_ControlDC_PCB-5\\Sensado_Control_DC_5\\Sensado_Control_DC_5-cache.lib"))
-    (library (logical 4_Wave_Generator-cache)
-      (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\J_SIERRA_NEW_PCB\\4_Wave_Generador\\4_Wave_Generator-cache.lib")))
+      (uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\Sensor_ControlDC_PCB-5\\Sensado_Control_DC_5\\Sensado_Control_DC_5-cache.lib")))
   (nets
     (net (code 1) (name /REFIN)
       (node (ref R14) (pin 1))
