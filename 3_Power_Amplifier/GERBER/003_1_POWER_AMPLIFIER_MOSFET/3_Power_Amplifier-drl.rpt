@@ -1,5 +1,5 @@
-Drill report for C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/3_Power_Amplifier/3_Power_Amplifier/3_Power_Amplifier.kicad_pcb
-Created on 10/05/17 14:11:23
+Drill report for C:\Users\juan carlos sierra\Documents\GitHub\J_SIERRA_NEW_PCB\3_Power_Amplifier\3_Power_Amplifier\3_Power_Amplifier.kicad_pcb
+Created on 10/05/17 15:38:14
 
 Copper Layer Stackup:
     =============================================================
@@ -16,7 +16,7 @@ Drill file 'C:3_Power_Amplifier.drl' contains
     T4  1.50mm  0.059"  (1 hole)
     T5  1.70mm  0.067"  (4 holes)
     T6  1.80mm  0.071"  (10 holes)
-    T7  3.00mm  0.118"  (8 holes)
+    T7  2.50mm  0.098"  (8 holes)
     T8  3.20mm  0.126"  (4 holes)
 
     Total plated holes count 471

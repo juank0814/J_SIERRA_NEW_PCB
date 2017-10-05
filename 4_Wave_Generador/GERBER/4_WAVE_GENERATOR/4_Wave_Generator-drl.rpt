@@ -1,5 +1,5 @@
-Drill report for C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/4_Wave_Generador/4_Wave_Generator.kicad_pcb
-Created on 10/05/17 14:17:23
+Drill report for C:\Users\juan carlos sierra\Documents\GitHub\J_SIERRA_NEW_PCB\4_Wave_Generador\4_Wave_Generator.kicad_pcb
+Created on 10/05/17 15:07:12
 
 Copper Layer Stackup:
     =============================================================
@@ -11,7 +11,7 @@ Drill file 'C:4_Wave_Generator.drl' contains
     plated through holes:
     =============================================================
     T1  0.30mm  0.012"  (18 holes)
-    T2  0.40mm  0.016"  (377 holes)
+    T2  0.40mm  0.016"  (374 holes)
     T3  0.50mm  0.020"  (32 holes)
     T4  0.80mm  0.031"  (12 holes)
     T5  1.00mm  0.039"  (78 holes)
@@ -19,7 +19,7 @@ Drill file 'C:4_Wave_Generator.drl' contains
     T7  1.80mm  0.071"  (12 holes)
     T8  3.20mm  0.126"  (4 holes)
 
-    Total plated holes count 555
+    Total plated holes count 552
 
 
 Not plated through holes are merged with plated holes
