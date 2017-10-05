@@ -36,4 +36,5 @@
   (lib (name Connectors_USB)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\Huellas_Gihub_Kicad\\Connectors_USB.pretty")(options "")(descr ""))
   (lib (name Connectors_WAGO)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\Huellas_Gihub_Kicad\\Connectors_WAGO.pretty")(options "")(descr ""))
   (lib (name Pin_Headers)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\Huellas_Gihub_Kicad\\Pin_Headers.pretty")(options "")(descr ""))
+  (lib (name Logos_Fuentes)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\Logos_Fuentes")(options "")(descr ""))
 )

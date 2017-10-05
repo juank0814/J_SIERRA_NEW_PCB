@@ -190,7 +190,7 @@ Wire Wire Line
 Wire Notes Line
 	6900 6100 11000 6100
 Text Notes 4150 800  0    118  Italic 0
-POWER AMPLIFIER PART 2
+POWER AMPLIFIER _ 2
 Text Notes 8400 4400 0    79   ~ 16
 HF_HV_CAPACITORS 
 Text Label 2150 3600 2    59   ~ 12
