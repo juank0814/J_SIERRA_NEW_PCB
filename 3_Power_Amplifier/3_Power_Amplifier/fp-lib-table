@@ -18,4 +18,5 @@
   (lib (name Connectors_JAE)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\Huellas_Gihub_Kicad\\Connectors_JAE.pretty")(options "")(descr ""))
   (lib (name Connectors_JST)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\Huellas_Gihub_Kicad\\Connectors_JST.pretty")(options "")(descr ""))
   (lib (name Connectors_Mini-Universal)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\Huellas_Gihub_Kicad\\Connectors_Mini-Universal.pretty")(options "")(descr ""))
+  (lib (name Logos_Fuentes)(type KiCad)(uri "C:\\Users\\juan carlos sierra\\Documents\\GitHub\\Logos_Fuentes")(options "")(descr ""))
 )

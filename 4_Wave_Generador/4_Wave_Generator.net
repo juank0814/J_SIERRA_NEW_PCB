@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/juan carlos sierra/Documents/GitHub/J_SIERRA_NEW_PCB/4_Wave_Generador/4_Wave_Generator.sch")
-    (date "10/05/17 12:39:53")
+    (date "10/05/17 12:44:19")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

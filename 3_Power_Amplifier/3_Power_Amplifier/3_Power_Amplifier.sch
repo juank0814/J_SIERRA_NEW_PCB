@@ -133,7 +133,7 @@ Wire Notes Line
 Wire Notes Line
 	650  1150 650  6400
 Text Notes 4550 900  0    118  ~ 24
-POWER AMPLIFIER PART 1
+POWER AMPLIFIER  1
 Wire Wire Line
 	1100 3400 1900 3400
 Wire Wire Line
